@@ -1,0 +1,30 @@
+# Composer vendor
+/vendor/
+
+# ไฟล์ที่สร้างจาก Yii
+/frontend/web/assets/*
+/backend/web/assets/*
+/console/runtime/*
+/frontend/runtime/*
+/backend/runtime/*
+/common/runtime/*
+
+# การกำหนดค่าท้องถิ่น (Local Config)
+/common/config/main-local.php
+/common/config/params-local.php
+/frontend/config/main-local.php
+/frontend/config/params-local.php
+/backend/config/main-local.php
+/backend/config/params-local.php
+/console/config/main-local.php
+/console/config/params-local.php
+
+# IDE และไฟล์ระบบปฏิบัติการ
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# ENV
+.env
